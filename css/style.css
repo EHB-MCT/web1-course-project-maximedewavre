@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-radius: 0 0 5% 5%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 10%;
+    padding: 0;
+}
+
+
+
+nav ul li a {
+    transition: 500ms ease-out;
+    color: #333;
+}
+
+#underline {
+    text-decoration: underline 2px solid;
+    color: #333;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul a:hover {
+    color: #eb2525;
+    transition: 300ms ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+header section {
+    text-align: center;
+    margin-top: 300px;
+    min-height: 50vh;
+    box-shadow: 0px 5px 5px #888888;
+}
+
+header section h2 {
+    margin-bottom: 30px;
+}
+
+header section h1 span {
+    color: #eb2525;
+}
+
+header section a {
+    color: red;
+    padding: 10px;
+    border: 3px solid #eb4343;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: ease-out 300ms;
+}
+
+header section a:hover {
+    background-color: #eb4343;
+    transition: ease-in-out 500ms;
+    color: white;
+    border-radius: 5px;
+}
+
+#achtergrond {
+    padding: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#achtergrond_div {
+    background-image: url(../images/IMG_20210627_235842_598.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 50px auto;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#achtergrond a {
+    color: white;
+    margin-top: 20px;
+}
+
+#achtergrond a:hover {
+    color: #eb2525;
+}
+
+a {
+    text-decoration: none;
+}
+
+#recent {
+    background-color: white;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+}
+
+#recent h1 {
+    text-align: center;
+}
+
+#recent h1 {
+    margin-top: 0;
+}
+
+#recent section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+#recent section div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 3fr;
+    background-color: #eb252560;
+    border-left: 5px solid #eb2525;
+    border-radius: 25px;
+    padding: 0 15px;
+    align-items: center;
+}
+
+#recent section div h3 {
+    grid-column: 1/3;
+}
+
+#recent section div p {
+    margin: 0;
+    grid-column: 1/3;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#recent section div img {
+    width: 80%;
+    grid-column: 1/3;
+    padding: 0 10% 10% 10%;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer section {
+    padding: 20px 0;
+}
+
+footer section h1 {
+    font-size: 3em;
+    margin: 10px 10px 50px 10px;
+}
+
+footer section h1 span {
+    color: #eb2525;
+}
+
+footer #spreekaan a {
+    color: red;
+    padding: 10px;
+    border: 3px solid #eb4343;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: ease-out 300ms;
+}
+
+footer #spreekaan a:hover {
+    background-color: #eb4343;
+    transition: ease-in-out 500ms;
+    color: white;
+    border-radius: 5px;
+}
+
+footer #spreekaan {
+    padding: 0 0 100px 0;
+}
+
+footer #footfig {
+    background-color: #eb2525;
+    border-radius: 25% 25% 0 0;
+}
+
+footer #footfig div {
+    margin: auto;
+    color: white;
+}
+
+footer #footfig div figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    width: 60%;
+    margin: 70px auto 25px auto;
+}
+
+footer #footfig div figure img {
+    width: 100%;
+}
+
+footer #footfig div p:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+/* second page */
+
+main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+main figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 70%;
+    margin: auto;
+    grid-gap: 30px;
+}
+
+main figure div {
+    min-height: 350px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+main figure div:nth-child(1) {
+    background-image: url(../images/opdracht2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+main figure div:nth-child(2) {
+    background-image: url(../images/moodboard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column: 2/4;
+}
+
+main figure div span {
+    grid-row-start: end;
+    height: fit-content;
+    background-color: #eb25258f;
+}
+
+#work2 {
+    display: none;
+}
+
+/* contact  */
+
+#contact {
+    margin: 150px auto;
+    width: 80%;
+}
+
+#contact div {
+    background-image: url(../images/skyline.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 150px;
+    padding-top: 20px;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+#contact div h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+#contact form {
+    background-color: #eb4343;
+    min-height: 100px;
+    padding: 20px;
+    display: grid;
+    border-radius: 0 0 15px 15px;
+    color: white;
+}
+
+#contact form input {
+    border: none;
+    border-bottom: white solid 2px;
+
+    background-color: #eb434300;
+    color: white;
+}
+
+#contact form button {
+    width: 30%;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    color: #eb4343;
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    header section:nth-child(2) {
+        margin-top: 250px;
+    }
+
+    #recent section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #recent section div {
+        grid-template-rows: 1fr 0.5fr 5fr;
+
+    }
+
+    #achtergrond_div {
+        height: 600px;
+    }
+
+    footer figure {
+        padding-top: 50px;
+        margin: 0;
+    }
+
+    footer #footfig {
+        border-radius: 50% 50% 0 0;
+        min-height: 0;
+    }
+
+    footer #footfig div figure {
+        width: 20%;
+    }
+
+    footer #footfig section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20%;
+    }
+
+    footer #footfig section div {
+        width: auto;
+    }
+
+    #contact {
+        width: 80%;
+        margin: auto;
+        min-height: 50vh;
+    }
+
+    /* second page */
+
+    main {
+        margin-bottom: 100px;
+    }
+
+    main figure {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        width: 70%;
+        margin: auto;
+        grid-gap: 30px;
+    }
+
+    main figure div {
+        min-height: 350px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    main figure div:nth-child(1) {
+        background-image: url(../images/opdracht2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-column: 1/3;
+    }
+
+    main figure div:nth-child(2) {
+        background-image: url(../images/moodboard.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-column: 3/6;
+        grid-row: 1/2;
+    }
+
+
+    main figure div:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/4;
+    }
+
+    main figure div:nth-child(4) {
+        background-image: url(../images/social.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-column: 4/6;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    main figure div span {
+        grid-row-start: end;
+        height: fit-content;
+        background-color: #eb25258f;
+        color: white;
+    }
+
+    #work {
+        display: none;
+    }
+
+    #work2 {
+        display: grid;
+    }
+
+    #contact {
+        margin-top: 200px;
+        width: 60%;
+    }
+
+}
